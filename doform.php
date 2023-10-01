@@ -33,7 +33,7 @@
                     $stmt2->bindParam(':password', $encryptedPass);
                     $stmt2->execute();
                     echo '<br>'.'User successfully registered!'
-                    //header("Location:");
+
             }
 
 ?>
